@@ -1,0 +1,10 @@
+[project]
+name = "whale-tracker-mcp"
+version = "0.1.0"
+description = "A mcp server for tracking cryptocurrency whale transactions using the Whale Alert API"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.4.0",
+]
