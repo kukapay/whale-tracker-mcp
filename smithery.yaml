@@ -1,0 +1,23 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - whaleAlertApiKey
+    properties:
+      whaleAlertApiKey:
+        type: string
+        description: Your Whale Alert API key to authenticate requests
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: "python",
+      args: ["whale-tracker.py"],
+      env: { WHALE_ALERT_API_KEY: config.whaleAlertApiKey }
+    })
+  exampleConfig:
+    whaleAlertApiKey: YOUR_API_KEY_HERE
