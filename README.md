@@ -3,8 +3,9 @@
 
 **A Model Context Protocol (MCP) server for tracking cryptocurrency whale transactions using the Whale Alert API**
 
-[![MIT licensed][mit-badge]][mit-url]
-[![Python Version][python-badge]][python-url]
+[![mit license](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/license/mit/)
+[![python versions](https://img.shields.io/pypi/pyversions/mcp)](https://www.python.org/downloads/)
+[![smithery badge](https://smithery.ai/badge/@kukapay/whale-tracker-mcp)](https://smithery.ai/server/@kukapay/whale-tracker-mcp)
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -22,10 +23,6 @@
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
-[mit-badge]: https://img.shields.io/pypi/l/mcp.svg
-[mit-url]: https://github.com/kukapay/whale-tracker-mcp/blob/main/LICENSE
-[python-badge]: https://img.shields.io/pypi/pyversions/mcp.svg
-[python-url]: https://www.python.org/downloads/
 
 ## Overview
 
@@ -52,6 +49,14 @@ This server is designed for cryptocurrency enthusiasts, developers, and analysts
 - **MCP Client**: Compatible with MCP clients like Claude Desktop or the MCP Inspector.
 
 ## Installation
+
+### Installing via Smithery
+
+To install Whale Tracker for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/whale-tracker-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/whale-tracker-mcp --client claude
+```
 
 1. **Clone the repository**:
 ```bash
@@ -159,12 +164,12 @@ mcp install whale_tracker.py -v WHALE_ALERT_API_KEY=your_api_key_here
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://grok.com/chat/LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
 
-- [Whale Alert](https://whale-alert.io/) for providing the API to track cryptocurrency whale transactions.
-- [Model Context Protocol](https://modelcontextprotocol.io/) team for the MCP specification and Python SDK.
-- [httpx](https://www.python-httpx.org/) for a robust HTTP client library.
+- Whale Alert for providing the API to track cryptocurrency whale transactions.
+- Model Context Protocol team for the MCP specification and Python SDK.
+- httpx for a robust HTTP client library.
 
 Happy whale tracking! 🐳
