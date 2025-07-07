@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kukapay-whale-tracker-mcp-badge.png)](https://mseep.ai/app/kukapay-whale-tracker-mcp)
+
 # Whale Tracker MCP Server
 
 
