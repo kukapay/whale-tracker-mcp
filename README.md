@@ -30,6 +30,10 @@ The `whale-tracker-mcp` server is a Python-based implementation of the [Model Co
 
 This server is designed for cryptocurrency enthusiasts, developers, and analysts who want to monitor whale activity directly within their LLM-powered workflows.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/kukapay-whale-tracker-mcp).
+
 ## Features
 
 - **Tools**:
